@@ -1,0 +1,22 @@
+{
+    "name": "kaek14/login",
+    "type": "library",
+    "description": "Base class for login system i Anax-MVC",
+    "keywords": ["login", "education"],
+    "homepage": "http://sftp.student.bth.se/~kaek14/phpmvc/kmom05/webroot/login-test.php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kalle Ekelund",
+            "email": "kalle.ekelund.90@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Anax\\": "src/" }
+    }
+}
