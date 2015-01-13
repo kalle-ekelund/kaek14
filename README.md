@@ -28,3 +28,4 @@ into Anax/webroot and uncomment the require_once in login-test.php
 
 History
 -----------------------------------
+v1.1 Added testing
