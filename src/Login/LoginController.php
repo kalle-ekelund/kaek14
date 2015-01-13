@@ -6,7 +6,7 @@
  * Time: 14:47
  */
 
-namespace Anax\Login;
+namespace kaek14\Login;
 
 /**
  * A controller to login a user onto your website
@@ -23,7 +23,8 @@ class LoginController implements \Anax\DI\IInjectionAware
      */
     public function initialize()
     {
-        $this->users = new \Anax\Login\User();
+        var_dump("Init");
+        $this->users = new \kaek14\Login\User();
         $this->users->setDI($this->di);
     }
 
@@ -35,6 +36,7 @@ class LoginController implements \Anax\DI\IInjectionAware
             $this->response->redirect($this->request->getPost('redirect'));
         }
 
+        var_dump("Got past doLogin");
         $res = $this->users->query()
                     ->where("acronym = '". $this->request->getPost('acronym')."'")
                     ->execute();

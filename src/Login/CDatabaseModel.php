@@ -1,5 +1,5 @@
 <?php
-namespace Anax\Login;
+namespace kaek14\Login;
 
 /**
  * Model for Users.
