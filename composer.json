@@ -18,5 +18,9 @@
     },
     "autoload": {
         "psr-4": { "Anax\\": "src/" }
+    },
+
+    "require": {
+        "anax/mvc": "dev-master"
     }
 }

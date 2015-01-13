@@ -64,7 +64,7 @@ class LoginSessionController implements \Anax\DI\IInjectionAware
 
     public function logoutAction() {
         $isPosted = isset($_POST['doLogout']) ? $_POST['doLogout'] : null;
-        var_dump($isPosted);
+        
         if (!$isPosted) {
             return false;
         }
