@@ -1,5 +1,8 @@
 kaek14/login
 =========
+[![Build Status](https://travis-ci.org/kalle-ekelund/kaek14.svg)](https://travis-ci.org/kalle-ekelund/kaek14)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kalle-ekelund/kaek14/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kalle-ekelund/kaek14/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/kalle-ekelund/kaek14/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kalle-ekelund/kaek14/?branch=master)
 
 PHP class for login handling in Anax-MVC
 
